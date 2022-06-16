@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T00:29:23.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="IlQLAtI64FA8wrFEnNBV" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T01:17:04.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="4SuA_sfaGn2bXD42Z8V4" version="20.0.1" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1354" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="649" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,6 +82,49 @@
         </mxCell>
         <mxCell id="nkz6xilyZinbzSFR6GKT-73" value="A回应&lt;br&gt;“回答错误”" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="640" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nkz6xilyZinbzSFR6GKT-76" target="nkz6xilyZinbzSFR6GKT-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="310" />
+              <mxPoint x="770" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nkz6xilyZinbzSFR6GKT-76" target="nkz6xilyZinbzSFR6GKT-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="310" />
+              <mxPoint x="1030" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-76" value="你画我猜应用" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;glass=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nkz6xilyZinbzSFR6GKT-77" target="nkz6xilyZinbzSFR6GKT-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nkz6xilyZinbzSFR6GKT-77" target="nkz6xilyZinbzSFR6GKT-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-77" value="分布式手写功能" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;glass=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nkz6xilyZinbzSFR6GKT-78" target="nkz6xilyZinbzSFR6GKT-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-78" value="分布式回答" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;glass=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-81" value="画线同步" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="447" width="30" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-82" value="画线撤销" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="790" y="447" width="30" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="nkz6xilyZinbzSFR6GKT-85" value="回答列表同步" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="447" width="30" height="113" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
